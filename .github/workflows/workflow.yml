@@ -24,4 +24,4 @@ jobs:
           npm run lint
 
       - name: Run unit tests with Jest
-        run:pm test -- --coverage 
+        run: npm test -- --coverage 
